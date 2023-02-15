@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import styles from './DefaultLayout.module.scss';
 import Header from './Header';
 import PlayerFooter from './PlayerFooter';
-import SideNav from './SideNav';
+import SideNav from './SideNav/SideNav';
 
 const cx = classNames.bind(styles);
 
