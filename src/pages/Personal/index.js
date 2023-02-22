@@ -1,5 +1,1 @@
-function Personal() {
-  return <h1>Personal page</h1>;
-}
-
-export default Personal;
+export { default } from './Personal';

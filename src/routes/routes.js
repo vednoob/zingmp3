@@ -1,5 +1,5 @@
 // Lauouts
-import { PersonalManageLayout } from '~/components/Layout';
+import { PersonalManageLayout } from '~/Layout';
 
 import Explore from '~/pages/Explore';
 import Personal from '~/pages/Personal';

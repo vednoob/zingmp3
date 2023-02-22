@@ -2,4 +2,7 @@
   display: flex;
   background-color: green;
   height: var(--player-footer-height);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
