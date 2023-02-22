@@ -1,5 +1,6 @@
 .wrapper {
+  // position: fixed;
   background-color: red;
-  width: 240px;
+  width: var(--sidenav-width);
   height: calc(100vh - var(--player-footer-height));
 }

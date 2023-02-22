@@ -1,16 +1,15 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .row-wrapper {
+  flex: 1;
   display: flex;
-  flex-grow: 1;
 }
 
 .content {
+  flex: 1;
   background-color: var(--secondary-color);
-  flex-grow: 1;
-  overflow: auto;
 }

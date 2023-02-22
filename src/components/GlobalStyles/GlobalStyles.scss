@@ -9,6 +9,7 @@
 
   // Dimension
   --player-footer-height: 90px;
+  --sidenav-width: 240px;
 }
 
 * {
@@ -19,6 +20,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-y: hidden;
 }
 
 body {
