@@ -11,9 +11,9 @@ function DefaultLayout({ children }) {
     <div className={cx('wrapper')}>
       <div className={cx('row-wrapper')}>
         <SideNav />
-        <div className={cx('content')}>
+        <div className={cx('content-wrapper')}>
           <Header />
-          {children}
+          <div className={cx('content')}>{children}</div>
         </div>
       </div>
       <PlayerFooter />
